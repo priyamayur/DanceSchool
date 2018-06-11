@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width1">24sp</dimen>
+    <dimen name="width2">50sp</dimen>
+    <dimen name="width3">16sp</dimen>
+    <dimen name="width4">5dp</dimen>
+    <dimen name="width5">125dp</dimen>
+    <dimen name="width6">100dp</dimen>
+    <dimen name="width7">20dp</dimen>
+    <dimen name="width8">50dp</dimen>
+    <dimen name="width9">8sp</dimen>
+    <dimen name="width10">2dp</dimen>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusinessApp</string>
+    <string name="business_name">PADATIK</string>
+    <string name="business_details">Get prepared for Dance Lessons :\n Hip Hop \n Salsa \nContemporary \n Ballet\n Monday to Friday \n 5pm-7pm \n CALL US AND ENROLL TODAY </string>
+    <string name="phone">9830024927</string>
+    <string name="coordinate">geo:37.38,-122.08</string>
+    <string name="address">AJC Bose Road \n Kolkata-700017 \n WestBengal, India</string>
+</resources>

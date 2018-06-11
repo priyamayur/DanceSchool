@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dance_padatik"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/width1"
+            android:fontFamily="@font/amita"
+            android:gravity="center"
+            android:padding="@dimen/width10"
+            android:text="@string/business_name"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/width2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dance_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/width1"
+            android:fontFamily="@font/amita"
+            android:gravity="center"
+            android:padding="@dimen/width4"
+            android:text="@string/business_details"
+            android:textAlignment="center"
+            android:layout_gravity="right"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/width3"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/phone"
+        android:layout_width="@dimen/width5"
+        android:layout_height="@dimen/width6"
+        android:layout_alignParentBottom="true"
+        card_view:cardCornerRadius="@dimen/width7"
+        android:layout_margin="@dimen/width4"
+        android:layout_weight="1"
+        card_view:cardBackgroundColor="@color/colorLime"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/width1"
+            android:orientation="vertical"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/call_image"
+                android:layout_width="@dimen/width8"
+                android:layout_height="@dimen/width8"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/width4"
+                android:src="@drawable/call"
+                android:onClick="phone"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/width4"
+                android:text="@string/phone"
+                android:fontFamily="@font/amita"
+                android:textColor="@color/colorWhite"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/address"
+        android:layout_width="@dimen/width5"
+        android:layout_height="@dimen/width6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        card_view:cardCornerRadius="@dimen/width7"
+        android:layout_margin="@dimen/width4"
+        android:layout_weight="1"
+        card_view:cardBackgroundColor="@color/colorLime"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/width1"
+            android:orientation="vertical"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/address_image"
+                android:layout_width="@dimen/width8"
+                android:layout_height="@dimen/width8"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/width4"
+                android:src="@drawable/location"
+                android:onClick="location"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/width4"
+                android:text="@string/address"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/width9"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+
